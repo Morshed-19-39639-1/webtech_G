@@ -8,9 +8,9 @@ function rect_area($length = 10, $width = 6)
     $area = $length * $width;
     $perimeter =2*($length+$width);
 
-    echo "<br />" . "Area Of Rectangle with length " . $length . " & width " . $width . " is " . $area ."<br />";
+    echo "<br />" . " Area Of Rectangle with length " . $length . " & width " . $width . " is " . $area ."<br />";
 
-    echo "Perimeter Of Rectangle with length " . $length . " & width " . $width . " is " . $perimeter . "<br />" ;
+    echo " Perimeter Of Rectangle with length " . $length . " & width " . $width . " is " . $perimeter . "<br />" ;
 
 }
 
@@ -22,7 +22,7 @@ function calc_VAT($vat = 15, $price= 500)
 	$totalVat=($price/100) *$vat;
 	$totalPrice = $totalVat + $price;
 
-	echo "<br />" ."Calculating Vat " . "<br />" ."Vat is " . $vat . "% and Without Vat price is " . $price . "<br />" ." Final Price is: "  . $totalPrice . "<br />";
+	echo "<br />" ." Calculating Vat " . "<br />" ."Vat is " . $vat . "% and Without Vat price is " . $price . "<br />" ." Final Price is: "  . $totalPrice . "<br />";
 
 }
 
@@ -71,7 +71,7 @@ function printNum($num=10)
 {
 	echo "<br/>"."5."."<br/>";
 
-	echo "<br/>"."Printing Odd Numbers Between 10 to 100---"."<br/>";
+	echo "<br/>"." Printing Odd Numbers Between 10 to 100---"."<br/>";
      while ( $num <= 100 ) 
      {
      echo "$num\n";
