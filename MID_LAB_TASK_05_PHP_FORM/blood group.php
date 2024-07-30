@@ -35,6 +35,7 @@ if(isset($_GET['submit'])){
         <br>
         <br>	  		
 	  	<input type="submit" value="Submit">
+		
 	  </fieldset>
 	</form>
 </body>
