@@ -36,26 +36,27 @@
     	<tr>
     		<td>Blood Group</td>
     		<td>
-    			<select name="bloodgroup"> 
-                <option id="bloodgroup" name="bloodgroup" value="Null">select your blood group</option></selected>
-                <option id="bloodgroup" name="bloodgroup" value="A+">A+</option>
-                <option id="bloodgroup" name="bloodgroup" value="A-">A-</option>
-                <option id="bloodgroup" name="bloodgroup" value="B+">B+</option>
-                <option id="bloodgroup" name="bloodgroup" value="B-">B-</option>
-                <option id="bloodgroup" name="bloodgroup" value="AB+">AB+</option>
-                <option id="bloodgroup" name="bloodgroup" value="AB-">AB-</option>
-                <option id="bloodgroup" name="bloodgroup" value="O+">O+</option>
-                <option id="bloodgroup" name="bloodgroup" value="O-">O-</option>
-                <select/>              
+    		    <select name="bloodgroup"> 
+	                <option id="bloodgroup" name="bloodgroup" value="Null">select your blood group</option></selected>
+	                <option id="bloodgroup" name="bloodgroup" value="A+">A+</option>
+	                <option id="bloodgroup" name="bloodgroup" value="A-">A-</option>
+	                <option id="bloodgroup" name="bloodgroup" value="B+">B+</option>
+	                <option id="bloodgroup" name="bloodgroup" value="B-">B-</option>
+	                <option id="bloodgroup" name="bloodgroup" value="AB+">AB+</option>
+	                <option id="bloodgroup" name="bloodgroup" value="AB-">AB-</option>
+	                <option id="bloodgroup" name="bloodgroup" value="O+">O+</option>
+	                <option id="bloodgroup" name="bloodgroup" value="O-">O-</option>
+                     <select/>              
     		</td>
     	</tr>
     	<tr>
-    		<td>Degree</td>
-    		<td><input type="Checkbox" id="degree" name="degree" value="SSC">SSC
-                 <input type="Checkbox" id="degree" name="degree" value="HSC">HSC
-                 <input type="Checkbox" id="degree" name="degree" value="BSc">BSc
-                 <input type="Checkbox"id="degree" name="degree" value="MSc">MSc
-            </td>
+    	        <td>Degree</td>
+    		<td>
+			<input type="Checkbox" id="degree" name="degree" value="SSC">SSC
+	                <input type="Checkbox" id="degree" name="degree" value="HSC">HSC
+	                <input type="Checkbox" id="degree" name="degree" value="BSc">BSc
+	                <input type="Checkbox"id="degree" name="degree" value="MSc">MSc
+               </td>
         </tr>
         <tr>
         	<td>Photo</td>
@@ -70,7 +71,7 @@
         <tr align="right" >
 
         	<td>
-                <a href= 'login.php'> Registrated </a> &nbsp
+                        <a href= 'login.php'> Registrated </a> &nbsp
         		<input type="submit" name="Reset" value="Reset"> 
 
         	</td>
