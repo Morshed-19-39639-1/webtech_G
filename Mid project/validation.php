@@ -18,7 +18,7 @@ if (isset($_POST['login'])) {
         header("location: welcome.php");
         
     } else {
-        echo "Given email or password is not correct. <br> click here to  <a href= 'login.php'> try again </a> " ;
+        echo "Entered email or password is not correct. <br> click here to  <a href= 'login.php'> try again </a> " ;
     }
     
 } else {
