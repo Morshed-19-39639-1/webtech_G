@@ -7,6 +7,4 @@ echo" <br> <br>To enroll JOB POINT successfully. <br> ClickMe to  <a href= 'job.
 
 echo "<a href=' logout.php' > <br> logout </a>";
 
-
-
 ?>
